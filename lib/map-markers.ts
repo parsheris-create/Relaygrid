@@ -1,0 +1,15 @@
+export const markerStyles: Record<string, { color: string; emoji: string }> = {
+  food: { color: '#d97706', emoji: '🍽️' },
+  shelter: { color: '#2563eb', emoji: '🏠' },
+  supplies: { color: '#7c3aed', emoji: '👕' },
+  disaster: { color: '#dc2626', emoji: '⚠️' },
+  housing: { color: '#0f766e', emoji: '🔑' },
+  transportation: { color: '#0891b2', emoji: '🚗' },
+  health: { color: '#e11d48', emoji: '🩺' },
+  'mental-health': { color: '#8b5cf6', emoji: '🧠' },
+  'domestic-violence': { color: '#be123c', emoji: '🛡️' },
+  youth: { color: '#ea580c', emoji: '🎒' },
+  financial: { color: '#16a34a', emoji: '💵' },
+  disability: { color: '#4f46e5', emoji: '♿' },
+  other: { color: '#475569', emoji: 'ℹ️' },
+}
